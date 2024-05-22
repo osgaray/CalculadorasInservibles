@@ -14,16 +14,6 @@ public class CalculadoraFinanciera extends Calculadora {
         return iva;
     }
 
-    public static void main(String[] args) {
-        
-        CalculadoraFinanciera miCalculadora = new CalculadoraFinanciera();
-        double CantidadDinero = 10000.0;
-        double IVAcalculado = miCalculadora.calcularIVA(CantidadDinero);
-        System.out.println("El IVA de $: "+CantidadDinero+ " Es: $"+IVAcalculado);
-
-
-    }
-
 
    
 
